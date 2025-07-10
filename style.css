@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 1280px;
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+}
+/* shared styles  */
+.common-btn{
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #0f300fd8;
+    color: #fff;
+    border: none;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+
+.marg-t{
+    margin: 40px auto;
+}
+
+/* header section styles  */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: #b2f7e044;
+}
+nav .nav-btn{
+    padding: 10px 25px;
+    font-size: 15px;
+    font-weight: 700;
+}
+header{
+    background-color: #6acead62;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-container{
+    width: 500px;
+}
+.header-container h1{
+    font-size: 40px;
+}
+/* cards section styles  */
+.cards h2{
+    padding: 20px 0; 
+}
+.cards-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.card img{
+    height: 40px;
+}
+.card{
+    width: 280px;
+    height: 150px;
+    padding: 25px 10px;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 30px #80808054 ;
+    border-radius: 10px;
+}
+/* news section styles  */
+.news-box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 10px 10px 30px #80808054;
+}
+.news-box1 img{
+    height: 400px;
+}
+.news-text{
+    width: 600px;
+}
+.news-text h3{
+    font-size: 30px;
+    margin: 20px 0;
+}
+.news-text h4{
+    font-size: 20px;
+    color: #21216ec9;
+}
