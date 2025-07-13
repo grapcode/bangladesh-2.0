@@ -92,3 +92,29 @@ header{
     font-size: 20px;
     color: #21216ec9;
 }
+/* Donate section styles  */
+.donate{
+    text-align: center;
+    margin: 40px 0;
+}
+.donate-box{
+    display: flex;
+}
+.donate-box div{
+    width: 250px;
+    height: 80px;
+    background-color: #6acead62;
+    margin: 15px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+
+}
+.donate input{
+    text-align: center;
+    width: 92%;
+    height: 35px;
+    border: none;
+    box-shadow: 5px 5px 15px #80808054;
+}
